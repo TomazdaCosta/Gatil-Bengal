@@ -1,0 +1,40 @@
+.pais-bg {
+  background: linear-gradient(to bottom, var(--black-gradiente-1), var(--black-gradiente-2));
+}
+
+.pais {
+  padding: 40px 80px;
+}
+
+.pais h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  color: var(--white);
+  text-align: center;
+  position: relative;
+  display: grid;
+  justify-items: center;
+}
+
+.pais h2::before {
+  content: '';
+  display: inline-block;
+  width: 50px;
+  height: 3px;
+  background-color: var(--cor-primaria);
+  position: absolute;
+  top: 40px;
+}
+
+.papais-bg {
+  display: flex;
+  margin: 80px 0px;
+  justify-content: space-around;
+}
+
+.pais-card {
+  background-color: var(--white);
+  border-radius: 5px;
+  display: grid;
+  justify-items: center;
+}
