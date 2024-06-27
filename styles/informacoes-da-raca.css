@@ -10,11 +10,12 @@
 .informacoes-da-raca-lista-titulos {
   display: flex;
   justify-content: space-between;
+  gap: 10px;
 }
 
 .informacoes-titulo {
   font-family: 'Roboto', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   color: var(--black-1);
   position: relative;
   display: grid;
@@ -29,11 +30,19 @@
   margin-top: 60px;
 }
 
-.informacoes-titulo.ativo {
+.js-enabled .informacoes-conteudo {
+  display: none;
+}
+
+.js-enabled .informacoes-conteudo.ativo {
+  display: block;
+}
+
+.js-enabled .informacoes-titulo.ativo {
   color: var(--cor-primaria);
 }
 
-.informacoes-titulo.ativo::before {
+.js-enabled .informacoes-titulo.ativo::before {
   content: '';
   display: inline-block;
   width: 50px;
