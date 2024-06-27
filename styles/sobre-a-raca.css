@@ -1,8 +1,9 @@
 .sobre-a-raca-bg {
-  padding: 0px 80px;
+  padding: 10px 80px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
   align-items: center;
+  gap: 20px;
 }
 
 .sobre-a-raca-bg h2 {
@@ -27,4 +28,8 @@
   font-size: 1.25rem;
   color: var(--black-2);
   margin-top: 30px;
+}
+
+.img-sobre-a-raca {
+  width: 500px;
 }
