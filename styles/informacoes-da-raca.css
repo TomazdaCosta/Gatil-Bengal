@@ -1,0 +1,45 @@
+.informacoes-da-raca {
+  padding: 0px 80px;
+}
+
+.informacoes-da-raca-bg {
+  background-color: var(--white);
+  padding: 40px;
+}
+
+.informacoes-da-raca-lista-titulos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.informacoes-titulo {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  color: var(--black-1);
+  position: relative;
+  display: grid;
+  justify-items: center;
+  cursor: pointer;
+}
+
+.informacoes-conteudo {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.25rem;
+  color: var(--black-2);
+  margin-top: 60px;
+}
+
+.informacoes-titulo.ativo {
+  color: var(--cor-primaria);
+}
+
+.informacoes-titulo.ativo::before {
+  content: '';
+  display: inline-block;
+  width: 50px;
+  height: 3px;
+  background-color: var(--cor-primaria);
+  position: absolute;
+  top: 40px;
+  cursor: initial;
+}
