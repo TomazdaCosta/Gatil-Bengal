@@ -1,3 +1,8 @@
+.header-bg {
+  background: linear-gradient(to bottom, var(--black-gradiente-1), var(--black-gradiente-2));
+  padding: 0px 80px;
+}
+
 .inicio-bg {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -43,4 +48,140 @@
 .button-filhotes:hover {
   background-color: var(--cor-primaria-2);
   transition: .3s;
+}
+
+@media (max-width: 1000px) {
+  .inicio-bg img {
+    width: 400px;
+  }
+
+  .inicio-conteudo h1 {
+    font-size: 2rem;
+  }
+
+  .inicio-conteudo p {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .inicio-bg img {
+    width: 350px;
+  }
+}
+
+@media (max-width: 800px) {
+  .inicio-bg img {
+    width: 350px;
+  }
+
+  .inicio-conteudo h1 {
+    font-size: 1.85rem;
+  }
+
+  .inicio-conteudo p {
+    font-size: 1.12rem;
+  }
+
+  .button-filhotes {
+    font-size: 1.25rem;
+    padding: 8px 15px;
+  }
+}
+
+@media (max-width: 700px) {
+  .header-bg {
+    padding: 0px 60px;
+  }
+
+  .inicio-bg img {
+    width: 300px;
+  }
+
+  .inicio-conteudo h1 {
+    font-size: 1.5rem;
+  }
+
+  .inicio-conteudo p {
+    font-size: 1rem;
+  }
+
+  .button-filhotes {
+    font-size: 1.12rem;
+    padding: 6px 12px;
+  }
+}
+
+@media (max-width: 650px) {
+  .inicio-bg img {
+    width: 250px;
+  }
+
+  .inicio-conteudo h1 {
+    font-size: 1.25rem;
+  }
+
+  .inicio-conteudo p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .header-bg {
+    padding: 0px 40px;
+  }
+
+  .inicio-conteudo h1 {
+    font-size: 1.12rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .inicio-bg {
+    grid-template-columns: 1fr;
+  }
+
+  .inicio-conteudo h1 {
+    font-size: 1.85rem;
+  }
+
+  .inicio-conteudo p {
+    font-size: 1.25rem;
+  }
+
+  .button-filhotes {
+    font-size: 1.5rem;
+    padding: 8px 15px;
+  }
+}
+
+@media (max-width: 400px) {
+  .inicio-conteudo h1 {
+    font-size: 1.5rem;
+  }
+
+  .inicio-conteudo p {
+    font-size: 1.12rem;
+  }
+
+  .button-filhotes {
+    font-size: 1.25rem;
+    padding: 6px 12px;
+  }
+}
+
+@media (max-width: 350px) {
+  .inicio-conteudo h1 {
+    font-size: 1.25rem;
+  }
+
+  .inicio-conteudo p {
+    font-size: 1rem;
+  }
+
+  .button-filhotes {
+    font-size: 1.12rem;
+    padding: 6px 12px;
+  }
 }
