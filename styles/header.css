@@ -1,0 +1,4 @@
+.header-bg {
+  background: linear-gradient(to bottom, var(--black-gradiente-1), var(--black-gradiente-2));
+  padding: 0px 80px;
+}
