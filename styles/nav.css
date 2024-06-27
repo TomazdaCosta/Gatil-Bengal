@@ -37,3 +37,53 @@
 .lista-nav li a:hover::after {
   display: inline-block;
 }
+
+.menu-mobile {
+  display: none;
+}
+
+@media (max-width: 750px) {
+  .lista-nav li a {
+    font-size: 1.12rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .lista-nav {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .js-enabled .lista-nav {
+    display: none;
+  }
+
+  .js-enabled .menu-mobile {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: var(--black-1);
+    border: none;
+    align-self: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+
+  .js-enabled .menu-mobile::before {
+    content: '';
+    display: inline-block;
+    height: 1px;
+    width: 12px;
+    background: var(--black-1);
+    box-shadow: 0 4px var(--black-1), 0 -4px var(--black-1);
+    margin-right: 5px;
+  }
+
+  .js-enabled .menu-mobile:hover {
+    background-color: var(--cor-primaria);
+  }
+}
