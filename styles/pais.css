@@ -30,6 +30,7 @@
   display: flex;
   margin: 80px 0px;
   justify-content: space-around;
+  gap: 20px;
 }
 
 .pais-card {
@@ -37,4 +38,31 @@
   border-radius: 5px;
   display: grid;
   justify-items: center;
+}
+
+.pais-card h4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  color: var(--black-1);
+  position: relative;
+  display: grid;
+  justify-items: center;
+  margin-top: 10px;
+}
+
+.pais-card h4::before {
+  content: '';
+  display: inline-block;
+  width: 50px;
+  height: 3px;
+  background-color: var(--cor-primaria);
+  position: absolute;
+  top: 30px;
+}
+
+.pais-card p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: var(--black-2);
+  margin: 10px;
 }
