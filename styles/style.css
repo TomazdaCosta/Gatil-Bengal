@@ -26,4 +26,7 @@
 @import "filhotes.css";
 
 /* Pais */
-@import "pais.css"
+@import "pais.css";
+
+/* Contato */
+@import "contato.css";
