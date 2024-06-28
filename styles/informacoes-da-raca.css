@@ -52,3 +52,74 @@
   top: 40px;
   cursor: initial;
 }
+
+@media (max-width: 1000px) {
+  .informacoes-titulo {
+    font-size: 1.12rem;
+  }
+
+  .informacoes-conteudo {
+    font-size: 1.12rem;
+  }
+}
+
+@media (max-width: 950px) {
+  .informacoes-da-raca-bg {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  .informacoes-titulo {
+    font-size: 1rem;
+  }
+
+  .informacoes-conteudo {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .informacoes-da-raca-lista-titulos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0px;
+  }
+
+  .informacoes-titulo {
+    border: 2px solid #e9e9e9;
+    padding: 10px;
+  }
+
+  .js-enabled .informacoes-titulo.ativo {
+    border: 2px solid var(--cor-primaria);
+  }
+
+  .js-enabled .informacoes-titulo.ativo::before {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .informacoes-da-raca {
+    padding: 0px 60px;
+  }
+}
+
+@media (max-width: 600px) {
+  .informacoes-da-raca {
+    padding: 0px 40px;
+  }
+}
+
+@media (max-width: 550px) {
+  .informacoes-titulo {
+    padding: 5px;
+  }
+}
+
+@media (max-width: 500px) {
+  .informacoes-da-raca-lista-titulos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

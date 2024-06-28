@@ -52,12 +52,6 @@
   }
 }
 
-@media (max-width: 950px) {
-  .sobre-a-raca-bg {
-    padding: 10px 60px;
-  }
-}
-
 @media (max-width: 900px) {
   .img-sobre-a-raca {
     width: 450px;
@@ -70,17 +64,18 @@
 
 @media (max-width: 850px) {
   .img-sobre-a-raca {
-    width: 300px;
+    width: 250px;
   }
 
   .img-sobre-a-raca img {
-    width: 300px;
+    width: 250px;
   }
 }
 
 @media (max-width: 700px) {
   .sobre-a-raca-bg {
     grid-template-columns: 1fr;
+    padding: 10px 60px;
   }
 }
 
