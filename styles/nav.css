@@ -112,5 +112,11 @@
     background: var(--black-1);
     box-shadow: 0 4px var(--black-1), 0 -4px var(--black-1);
     margin-right: 5px;
+    transition: .3s;
+  }
+
+  .js-enabled .menu-mobile.ativo::before {
+    transform: rotate(90deg);
+    transition: .3s;
   }
 }

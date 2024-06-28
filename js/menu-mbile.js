@@ -13,6 +13,7 @@ export default class MenuMobile {
 
   showNav() {
     this.navMenuMobile.classList.toggle('ativo')
+    this.buttonMenuMobile.classList.toggle('ativo')
   }
 
   bind() {
