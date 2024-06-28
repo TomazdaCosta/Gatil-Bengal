@@ -58,3 +58,87 @@
 .filhote-img img {
   width: 450px;
 }
+
+@media (max-width: 900px) {
+  .filhotes-descricao h2 {
+    font-size: 1.85rem;
+  }
+
+  .filhotes-descricao p {
+    font-size: 1.12rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .filhote-img img {
+    width: 400px;
+  }
+}
+
+@media (max-width: 800px) {
+  .filhote-img img {
+    width: 350px;
+  }
+
+  .filhotes-descricao h2 {
+    font-size: 1.5rem;
+  }
+
+  .filhotes-descricao p {
+    font-size: 1rem;
+  }
+
+  .button-filhote {
+    padding: 10px 15px;
+    font-size: 1.12rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .filhote-img img {
+    width: 300px;
+  }
+}
+
+@media (max-width: 700px) {
+  .filhotes-bg {
+    padding: 0px 60px;
+  }
+}
+
+@media (max-width: 650px) {
+  .filhotes-bg {
+    grid-template-columns: 1fr;
+  }
+
+  .filhote-img img {
+    width: 400px;
+  }
+}
+
+@media (max-width: 600px) {
+  .filhotes-bg {
+    padding: 0px 40px;
+    margin: 60px 0px;
+  }
+}
+
+@media (max-width: 500px) {
+  .filhote-img img {
+    width: 300px;
+  }
+}
+
+@media (max-width: 400px) {
+  .filhotes-bg {
+    margin: 40px 0px;
+  }
+
+  .filhote-img img {
+    width: 250px;
+  }
+
+  .filhotes-descricao h2 {
+    font-size: 1.25rem;
+  }
+}
