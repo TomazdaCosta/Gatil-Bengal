@@ -33,3 +33,77 @@
 .img-sobre-a-raca {
   width: 500px;
 }
+
+.conteudo-sobre-a-raca {
+  padding: 20px 0px;
+}
+
+@media (max-width: 1000px) {
+  .img-sobre-a-raca img {
+    width: 450px;
+  }
+
+  .sobre-a-raca-bg h2 {
+    font-size: 1.5rem;
+  }
+
+  .sobre-a-raca-bg p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 950px) {
+  .sobre-a-raca-bg {
+    padding: 10px 60px;
+  }
+}
+
+@media (max-width: 900px) {
+  .img-sobre-a-raca {
+    width: 450px;
+  }
+
+  .img-sobre-a-raca img {
+    width: 450px;
+  }
+}
+
+@media (max-width: 850px) {
+  .img-sobre-a-raca {
+    width: 300px;
+  }
+
+  .img-sobre-a-raca img {
+    width: 300px;
+  }
+}
+
+@media (max-width: 700px) {
+  .sobre-a-raca-bg {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .sobre-a-raca-bg {
+    padding: 10px 40px;
+  }
+}
+
+@media (max-width: 400px) {
+  .img-sobre-a-raca {
+    width: 250px;
+  }
+
+  .img-sobre-a-raca img {
+    width: 250px;
+  }
+
+  .sobre-a-raca-bg h2 {
+    font-size: 1.25rem;
+  }
+
+  .sobre-a-raca-bg h2::before {
+    top: 30px;
+  }
+}
