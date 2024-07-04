@@ -72,3 +72,46 @@
 .modal .button-filhote {
   margin-top: 20px;
 }
+
+@media (max-width: 600px) {
+  .modal h1 {
+    font-size: 1.5rem;
+  }
+
+  .modal label,
+  .modal input,
+  .modal p {
+    font-size: 1.25rem;
+  }
+
+  .input-text input {
+    font-size: 1rem;
+    padding: 3px;
+  }
+
+  .modal span {
+    right: -10px;
+    top: -10px;
+    padding: 10px 15px;
+  }
+
+  .modal {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 450px) {
+  .modal h1 {
+    font-size: 1.25rem;
+  }
+
+  .modal label,
+  .modal input,
+  .modal p {
+    font-size: 1rem;
+  }
+  
+  .modal {
+    padding: 20px;
+  }
+}
