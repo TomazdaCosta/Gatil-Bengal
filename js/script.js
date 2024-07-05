@@ -2,9 +2,10 @@ document.addEventListener('DOMContentLoaded', () => {
   document.body.classList.add('js-enabled')
 })
 
-import MenuMobile from "./menu-mbile.js"
+import MenuMobile from "./menu-mobile.js"
 import ShowInfo from "./show-informacoes.js"
 import Modal from "./modal.js"
+import ScrollSuave from "./scroll-suave.js"
 
 const menuMobile = new MenuMobile('.menu-mobile', '.lista-nav')
 menuMobile.initMenuMobile()
@@ -14,3 +15,6 @@ showInfo.initShowDescription()
 
 const modal = new Modal('.filhotes-descricao .button-filhote', '.fechar-modal', '.modal-bg')
 modal.initModal()
+
+const scrollSuave = new ScrollSuave('.lista-nav a', '.section')
+scrollSuave.initScrollSuave()
