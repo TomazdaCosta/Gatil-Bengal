@@ -1,9 +1,8 @@
 .filhotes-bg {
-  padding: 0px 80px;
+  padding: 80px 80px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  margin: 80px 0px;
 }
 
 .filhotes-descricao {
@@ -102,7 +101,7 @@
 
 @media (max-width: 700px) {
   .filhotes-bg {
-    padding: 0px 60px;
+    padding:80px 60px;
   }
 }
 
@@ -118,8 +117,7 @@
 
 @media (max-width: 600px) {
   .filhotes-bg {
-    padding: 0px 40px;
-    margin: 60px 0px;
+    padding: 60px 40px;
   }
 }
 
@@ -131,7 +129,7 @@
 
 @media (max-width: 400px) {
   .filhotes-bg {
-    margin: 40px 0px;
+    padding: 40px 40px;
   }
 
   .filhote-img img {
