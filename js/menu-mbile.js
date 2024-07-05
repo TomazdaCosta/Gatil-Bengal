@@ -11,7 +11,8 @@ export default class MenuMobile {
     })
   }
 
-  showNav() {
+  showNav(event) {
+    event.preventDefault()
     this.navMenuMobile.classList.toggle('ativo')
     this.buttonMenuMobile.classList.toggle('ativo')
   }
