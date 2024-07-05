@@ -3,6 +3,7 @@ export default class Modal {
     this.buttonAbrirModal = document.querySelector(buttonAbrir)
     this.buttonFecharModal = document.querySelector(buttonFechar)
     this.modalBg = document.querySelector(modal)
+    this.events = ['click', 'touchstart']
   }
 
   abrirModal() {
@@ -20,9 +21,11 @@ export default class Modal {
   }
 
   addEvent() {
-    this.buttonAbrirModal.addEventListener('click', this.abrirModal)
-    this.buttonFecharModal.addEventListener('click', this.fecharModal)
-    this.modalBg.addEventListener('click', this.clicarFora)
+    this.events.forEach(evento => {
+      this.buttonAbrirModal.addEventListener(evento, this.abrirModal)
+      this.buttonFecharModal.addEventListener(evento, this.fecharModal)
+      this.modalBg.addEventListener(evento, this.clicarFora)
+    })
   }
 
   bind() {
