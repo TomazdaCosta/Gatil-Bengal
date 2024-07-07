@@ -1,5 +1,11 @@
-.especificacoes {
+.js-enabled .especificacoes {
+  display: block;
   padding: 80px;
+  opacity: 0;
+}
+
+.js-enabled .especificacoes.ativo {
+  opacity: 100%;
 }
 
 .especificacoes-bg {

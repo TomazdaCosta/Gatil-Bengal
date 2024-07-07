@@ -20,4 +20,5 @@ modal.initModal()
 const scrollSuave = new ScrollSuave('.lista-nav a', '.section')
 scrollSuave.initScrollSuave()
 
-const animaScroll = new AnimaScroll()
+const animaScroll = new AnimaScroll('.js-scroll')
+animaScroll.initAnimaScroll()

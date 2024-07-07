@@ -1,9 +1,14 @@
-.sobre-a-raca-bg {
+.js-enabled .sobre-a-raca-bg {
   padding: 10px 80px;
   display: grid;
   grid-template-columns: 1fr 2fr;
   align-items: center;
   gap: 20px;
+  opacity: 0;
+}
+
+.js-enabled .sobre-a-raca-bg.ativo {
+  opacity: 100%;
 }
 
 .sobre-a-raca-bg h2 {

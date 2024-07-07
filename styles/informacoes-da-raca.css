@@ -1,6 +1,13 @@
-.informacoes-da-raca {
+.js-enabled .informacoes-da-raca {
+  display: block;
   padding: 0px 80px;
+  opacity: 0;
 }
+
+.js-enabled .informacoes-da-raca.ativo {
+  opacity: 100%;
+}
+
 
 .informacoes-da-raca-bg {
   background-color: var(--white);

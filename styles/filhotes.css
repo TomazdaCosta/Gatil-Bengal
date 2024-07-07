@@ -1,8 +1,13 @@
-.filhotes-bg {
+.js-enabled .filhotes-bg {
   padding: 80px 80px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
+  opacity: 0;
+}
+
+.js-enabled .filhotes-bg.ativo {
+  opacity: 100%;
 }
 
 .filhotes-descricao {

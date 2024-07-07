@@ -1,5 +1,10 @@
-.pais-bg {
+.js-enabled .pais-bg {
   background: linear-gradient(to bottom, var(--black-gradiente-1), var(--black-gradiente-2));
+  opacity: 0;
+}
+
+.js-enabled .pais-bg.ativo {
+  opacity: 100%;
 }
 
 .pais {
