@@ -106,13 +106,13 @@
 }
 
 @media (max-width: 700px) {
-  .especificacoes {
+  .especificacoes.ativo {
     padding: 40px 60px;
   }
 }
 
 @media (max-width: 600px) {
-  .especificacoes {
+  .especificacoes.ativo {
     padding: 20px 40px;
   }
 }

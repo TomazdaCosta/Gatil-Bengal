@@ -109,13 +109,13 @@
 }
 
 @media (max-width: 700px) {
-  .filhotes-bg {
+  .filhotes-bg.ativo {
     padding:80px 60px;
   }
 }
 
 @media (max-width: 650px) {
-  .filhotes-bg {
+  .filhotes-bg.ativo {
     grid-template-columns: 1fr;
   }
 
@@ -125,7 +125,7 @@
 }
 
 @media (max-width: 600px) {
-  .filhotes-bg {
+  .filhotes-bg.ativo {
     padding: 60px 40px;
   }
 }
@@ -137,7 +137,7 @@
 }
 
 @media (max-width: 400px) {
-  .filhotes-bg {
+  .filhotes-bg.ativo {
     padding: 40px 40px;
   }
 
