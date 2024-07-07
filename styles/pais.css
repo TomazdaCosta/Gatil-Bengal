@@ -1,10 +1,14 @@
 .js-enabled .pais-bg {
   background: linear-gradient(to bottom, var(--black-gradiente-1), var(--black-gradiente-2));
   opacity: 0;
+  transform: translate3d(-30px, 0px, 0px);
+  transition: .3s;
 }
 
 .js-enabled .pais-bg.ativo {
   opacity: 100%;
+  transition: .3s;
+  transform: translate3d(0px, 0px, 0px)
 }
 
 .pais {
