@@ -92,7 +92,19 @@
 
 @media (max-width: 600px) {
   .sobre-a-raca-bg.ativo {
-    padding: 10px 40px;
+    grid-template-columns: 1fr;
+  }
+  
+  .sobre-a-raca-bg.ativo {
+    padding: 10px 20px;
+  }
+
+  .img-sobre-a-raca {
+    width: 300px;
+  }
+
+  .img-sobre-a-raca img {
+    width: 300px;
   }
 }
 
@@ -107,6 +119,10 @@
 }
 
 @media (max-width: 400px) {
+  .sobre-a-raca-bg.ativo {
+    padding: 10px 10px;
+  }
+
   .img-sobre-a-raca {
     width: 250px;
   }

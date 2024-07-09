@@ -129,7 +129,7 @@
 
 @media (max-width: 600px) {
   .header-bg {
-    padding: 0px 40px;
+    padding: 0px 20px;
   }
 
   .inicio-conteudo h1 {
@@ -157,6 +157,10 @@
 }
 
 @media (max-width: 400px) {
+  .header-bg {
+    padding: 0px 10px;
+  }
+
   .inicio-conteudo h1 {
     font-size: 1.5rem;
   }
