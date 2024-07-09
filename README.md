@@ -29,3 +29,8 @@ https://tomazdacosta.github.io/Gatil-Bengal/
 ![Imagem](https://github.com/TomazdaCosta/Gatil-Bengal/assets/131727236/de4cb1e6-c6cb-4203-b19c-c8e2b256fa29)
 ![Imagem](https://github.com/TomazdaCosta/Gatil-Bengal/assets/131727236/0160e60c-69b5-47db-9cef-fa46bbfc87b8)
 
+## Autor
+
+Tomaz Costa
+
+- LinkedIn: https://www.linkedin.com/in/tomaz-costa-a013a530b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
