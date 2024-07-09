@@ -1,7 +1,7 @@
 .js-enabled .sobre-a-raca-bg {
   padding: 10px 80px;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 20px;
   opacity: 0;
@@ -45,6 +45,15 @@
 
 .conteudo-sobre-a-raca {
   padding: 20px 0px;
+  max-width: 300px;
+}
+
+.img-sobre-a-raca {
+  width: 450px;
+}
+
+.img-sobre-a-raca img {
+  width: 450px;
 }
 
 @media (max-width: 1000px) {
@@ -65,22 +74,13 @@
   }
 }
 
-@media (max-width: 850px) {
-  .img-sobre-a-raca {
-    width: 300px;
-  }
-
-  .img-sobre-a-raca img {
-    width: 300px;
+@media (max-width: 900px) {
+  .conteudo-sobre-a-raca {
+    max-width: max-content;
   }
 }
 
 @media (max-width: 750px) {
-  .sobre-a-raca-bg.ativo {
-    grid-template-columns: 1fr;
-    padding: 10px 60px;
-  }
-
   .img-sobre-a-raca {
     width: 400px;
   }
@@ -91,10 +91,6 @@
 }
 
 @media (max-width: 600px) {
-  .sobre-a-raca-bg.ativo {
-    grid-template-columns: 1fr;
-  }
-  
   .sobre-a-raca-bg.ativo {
     padding: 10px 20px;
   }
@@ -124,11 +120,11 @@
   }
 
   .img-sobre-a-raca {
-    width: 250px;
+    width: 200px;
   }
 
   .img-sobre-a-raca img {
-    width: 250px;
+    width: 200px;
   }
 
   .sobre-a-raca-bg.ativo h2 {

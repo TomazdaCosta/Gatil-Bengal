@@ -1,7 +1,6 @@
 .js-enabled .filhotes-bg {
   padding: 80px 80px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
   align-items: center;
   opacity: 0;
   transform: translate3d(-30px, 0px, 0px);
@@ -126,21 +125,15 @@
   .filhote-img img {
     width: 300px;
   }
+
+  .filhotes-bg {
+    flex-wrap: wrap;
+  }
 }
 
 @media (max-width: 600px) {
   .filhotes-bg.ativo {
     padding: 60px 20px;
-  }
-}
-
-@media (max-width: 500px) {
-  .filhote-img {
-    max-width: 250px;
-  }
-
-  .filhote-img img {
-    width: 250px;
   }
 }
 
